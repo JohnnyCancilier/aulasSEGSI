@@ -10,8 +10,12 @@ body header {
 	color: white;
 }
 
-header h1 a {
-	padding: 0vw 0vw 0vw 7vw;
+header h1 img {
+	max-width: 70px;
+	max-height: 70px;
+	width: auto;
+	height: auto;
+	text-align: center;
 }
 
 header h2 {
@@ -61,7 +65,7 @@ section.pilaresSEG h3 {
 }
 
 section.pilaresSEG p {
-	font-size: 0.5em;
+	font-size: 0.6em;
 	color: #FA6A4F;
 }
 
@@ -98,6 +102,17 @@ section.rodape img {
 	max-height: 50px;
 	width: auto;
 	height: auto;
+}
+
+section.resumo {
+	background-color: #435c7e;
+}
+
+section.resumo p {
+	font-size: 0.6em;
+	color: #ffffff;
+	text-align: center;
+	padding: 3vw 3vw 3vw 5vw;
 }
 
 /* === BREAKPOINTS === */
