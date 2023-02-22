@@ -109,10 +109,20 @@ section.resumo {
 }
 
 section.resumo p {
-	font-size: 0.6em;
-	color: #ffffff;
-	text-align: center;
-	padding: 3vw 3vw 3vw 5vw;
+	font-size: 0.8em;
+	color: #323232;
+	text-align: justify;
+
+}
+
+section.resumo div {
+	padding: 8vw 14vw 8vw 14vw;
+}
+
+section.resumo h1,
+h2 {
+	padding: 4vw 0vw 4vw 0vw;
+	color: rgb(0, 0, 0);
 }
 
 /* === BREAKPOINTS === */
